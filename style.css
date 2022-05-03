@@ -25,3 +25,9 @@ img {
   width: 500px;
   overflow: hidden;
 }
+
+.image-container {
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
