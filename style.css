@@ -31,3 +31,8 @@ img {
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
 }
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
